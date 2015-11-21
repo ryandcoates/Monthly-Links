@@ -30,7 +30,7 @@ a link to the TP4 front page as well so you can start evaluating the release imm
 Mark was on Microsoft Mechanics recently talking and demoing Hyper-V Containers and Windows Containers in Server 2016, 
 it's a nice little demo and answers some questions I see a lot about the differences between the two, 
 as well as some simple management elements <br  />
-<https://www.youtube.com/watch?v=YoA_MMlGPRc> <br  />
+<https://azure.microsoft.com/en-us/blog/an-early-look-containers-windows-server-2016-hyper-v-and-azure-with-mark-russinovich/> <br  />
 
 
 ## Azure ##
@@ -40,7 +40,11 @@ with CloudLink SecureVM, This is great news for admins dealing with more complex
 of the simple backup offered by Azure Backup.<br  />
 <https://azure.microsoft.com/en-us/blog/azure-backup-supports-loadbalancer-cloudlink-virtualmachines/> <br  />
 
-##### B #####
+##### Hybrid Infrastructure Automation with Azure Resource Manager Templates #####
+Corey Sanders goes over some of the features and advantages of utilizing Azure Resource Manager templates, and how they 
+simplify the deployment of standardized pieces of an environment, great for Test and Dev on either the IT Pro or 
+Developer side of the house. <br  />
+<https://azure.microsoft.com/en-us/blog/hybrid-infrastructure-automation-with-azure-resource-manager-templates/> <br  />
 ##### C #####
 
 
