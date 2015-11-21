@@ -5,7 +5,12 @@ on the latest developments and changes to your favorite microsoft enterprise pro
 
 
 ## Messaging ##
-Outlook 2016 considerations <http://blogs.technet.com/b/exchange/archive/2015/11/19/outlook-2016-what-exchange-admins-need-to-know.aspx> <br  />
+##### Outlook 2016 considerations #####
+The guys over at the EHLO blog put out a nice article around some of the gotchas in deploying Outlook 2016 in your environment
+including the autodiscover requirements and the feature/version match with each Exchange server version, a good read for 
+anyone managing Exchange or Office deployments. <br />
+<http://blogs.technet.com/b/exchange/archive/2015/11/19/outlook-2016-what-exchange-admins-need-to-know.aspx> <br  />
+
 
 ## Modern Datacenter ##
 ##### Hyper-V Documentation for all #####
@@ -14,15 +19,43 @@ Virtualization and containers has started to go online, with the ability for the
 the documentation over time, a great way to keep things current and accurate.  <br />
 <http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/11/20/hyper-v-documentation-for-all.aspx> <br  />
 
-
 ##### What's new in Windows Server 2016 Technical Preview 4 #####
 With the recent release of Windows Server 2016 Technical Preview 4, Technet has been updated with a 
 What's new section for the release, allowing you to review and keep track of changes in this new build, I've included 
 a link to the TP4 front page as well so you can start evaluating the release immediatly. <br  />
 <https://technet.microsoft.com/en-us/library/dn765472.aspx> <br  />
-<https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview>
+<https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview> <br  />
+
+##### Mark Russinovich on Windows and Hyper-V containers #####
+Mark was on Microsoft Mechanics recently talking and demoing Hyper-V Containers and Windows Containers in Server 2016, 
+it's a nice little demo and answers some questions I see a lot about the differences between the two, 
+as well as some simple management elements <br  />
+<https://www.youtube.com/watch?v=YoA_MMlGPRc> <br  />
+
 
 ## Azure ##
+##### Azure Backup support for Load Balancing and CloudLink encrypted IaaS VMs #####
+Azure backup continues to improve and now has support for load balanced VMs, VMs with multiple NICs and encrypted VMs encrypted 
+with CloudLink SecureVM, This is great news for admins dealing with more complex IaaS deployments who wish to take advantage 
+of the simple backup offered by Azure Backup.<br  />
+<https://azure.microsoft.com/en-us/blog/azure-backup-supports-loadbalancer-cloudlink-virtualmachines/> <br  />
+
+##### B #####
+##### C #####
+
+
 ## SharePoint ##
+
+
 ## DevOps ##
+##### Visual Studio Code goes Open Source #####
+Along with a bunch of other announcements from the VS Code team, VS Code is now open source, and available for Linux, Windows and OSX.  
+Check out full details of the latest 0.10.1 release on the VS Code updates page below. <br  />
+<https://code.visualstudio.com/Updates> <br  />
+
+##### Visual Studio Code gets a Powershell extension #####
+This is great for powershell geeks like me, while I enjoy the ISE it's nice to get markup support in Code, and there are 
+plenty of advanced features tied in to the extension including variable watching and script analysis, check out details 
+and instructiosn for instlalation below. <br  />
+<http://blogs.msdn.com/b/powershell/archive/2015/11/17/announcing-windows-powershell-for-visual-studio-code-and-more.aspx> <br  />
 
