@@ -45,10 +45,17 @@ Corey Sanders goes over some of the features and advantages of utilizing Azure R
 simplify the deployment of standardized pieces of an environment, great for Test and Dev on either the IT Pro or 
 Developer side of the house. <br  />
 <https://azure.microsoft.com/en-us/blog/hybrid-infrastructure-automation-with-azure-resource-manager-templates/> <br  />
-##### C #####
 
+##### Azure Powershell 1.0 #####
+Many of you are likely using some the preview versions of the azure powershell module, including some of the older ones with the odd cursor 
+behavior that we all so love.  Looks like a lot of our concerns have been listened to in the 1.0 release which is available now and has support 
+for new Azure features such as Resource Manager and Data Lake.<br />
+<https://azure.microsoft.com/en-us/blog/azps-1-0/> <br />
 
-## SharePoint ##
+##### Azure Preview Portal - November 2015 Update #####
+The new azure portal continues to improve, bringing improvements to workflow and a new darker theme, check out full details at the 
+blog post below.<br />
+<https://azure.microsoft.com/en-us/blog/azure-preview-portal-november-2015-update/> <br />
 
 
 ## DevOps ##
