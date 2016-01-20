@@ -1,0 +1,117 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<style>
+	body {
+		background: #ffcc67;
+	}
+	.col-md-6 {
+		background: white;
+		border-radius: 10px;
+		margin: 20px 20px 20px 20px;
+	}
+	h1 {
+		font-weight: bold;
+		color: midnightblue;
+		margin-top: 10px;
+	}
+	h3 {
+		
+		}
+	
+	h5 {
+		font-weight: bold;
+		display: inline;
+	}
+</style>
+
+<html>
+<body>
+<div class="container-fluid">
+
+		<div class="col-md-6">
+			<h1 id="monthly-link-roundup-november-2015">Monthly Link roundup - November 2015</h1>
+			<p>Welcome to the first link roundup, for November 2015
+			We plan on bringing you a collection of useful Microsoft articles from across the net, helping to keep you up to speed 
+			on the latest developments and changes to your favorite microsoft enterprise products</p>
+				<h3 id="messaging">Messaging</h3>
+				<ul>
+					<li><h5 id="outlook-2016-considerations">Outlook 2016 considerations</h5>
+						<p>The guys over at the EHLO blog put out a nice article around some of the gotchas in deploying Outlook 2016 in your environment
+						including the autodiscover requirements and the feature/version match with each Exchange server version, a good read for 
+						anyone managing Exchange or Office deployments. <br />
+						<a href="http://blogs.technet.com/b/exchange/archive/2015/11/19/outlook-2016-what-exchange-admins-need-to-know.aspx">http://blogs.technet.com/b/exchange/archive/2015/11/19/outlook-2016-what-exchange-admins-need-to-know.aspx</a> <br  /></p></li>
+				</ul>
+				<h3 id="modern-datacenter">Modern Datacenter</h3>
+					<ul>
+						<li>
+						<h5 id="hyper-v-documentation-for-all">Hyper-V Documentation for all</h5>
+						<p>Microsoft are using github to host numerous documentation projects going forward, and the docs for 
+						Virtualization and containers has started to go online, with the ability for the community to edit and add to 
+						the documentation over time, a great way to keep things current and accurate.  <br />
+						<a href="http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/11/20/hyper-v-documentation-for-all.aspx">http://blogs.msdn.com/b/virtual_pc_guy/archive/2015/11/20/hyper-v-documentation-for-all.aspx</a> <br  /></p>
+						</li>
+						<li>
+						<h5 id="what-s-new-in-windows-server-2016-technical-preview-4">What&#39;s new in Windows Server 2016 Technical Preview 4</h5>
+							<p>With the recent release of Windows Server 2016 Technical Preview 4, Technet has been updated with a 
+							What&#39;s new section for the release, allowing you to review and keep track of changes in this new build, I&#39;ve included 
+							a link to the TP4 front page as well so you can start evaluating the release immediatly. <br  />
+							<a href="https://technet.microsoft.com/en-us/library/dn765472.aspx">https://technet.microsoft.com/en-us/library/dn765472.aspx</a> <br  />
+							<a href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview">https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview</a> <br  /></p>
+						</li>
+						<li>
+						<h5 id="mark-russinovich-on-windows-and-hyper-v-containers">Mark Russinovich on Windows and Hyper-V containers</h5>
+							<p>Mark was on Microsoft Mechanics recently talking and demoing Hyper-V Containers and Windows Containers in Server 2016, 
+							it&#39;s a nice little demo and answers some questions I see a lot about the differences between the two, 
+							as well as some simple management elements. <br  />
+							<a href="https://azure.microsoft.com/en-us/blog/an-early-look-containers-windows-server-2016-hyper-v-and-azure-with-mark-russinovich/">https://azure.microsoft.com/en-us/blog/an-early-look-containers-windows-server-2016-hyper-v-and-azure-with-mark-russinovich/</a> <br  /></p>
+						</li>
+					</ul>
+				<h3 id="azure">Azure</h3>
+					<ul>
+						<li>
+						<h5 id="azure-backup-support-for-load-balancing-and-cloudlink-encrypted-iaas-vms">Azure Backup support for Load Balancing and CloudLink encrypted IaaS VMs</h5>
+							<p>Azure backup continues to improve and now has support for load balanced VMs, VMs with multiple NICs and encrypted VMs encrypted 
+							with CloudLink SecureVM, This is great news for admins dealing with more complex IaaS deployments who wish to take advantage 
+							of the simple backup offered by Azure Backup.<br  />
+							<a href="https://azure.microsoft.com/en-us/blog/azure-backup-supports-loadbalancer-cloudlink-virtualmachines/">https://azure.microsoft.com/en-us/blog/azure-backup-supports-loadbalancer-cloudlink-virtualmachines/</a> <br  /></p>
+						</li>
+						<li>							
+						<h5 id="hybrid-infrastructure-automation-with-azure-resource-manager-templates">Hybrid Infrastructure Automation with Azure Resource Manager Templates</h5>
+							<p>Corey Sanders goes over some of the features and advantages of utilizing Azure Resource Manager templates, and how they 
+							simplify the deployment of standardized pieces of an environment, great for Test and Dev on either the IT Pro or 
+							Developer side of the house. <br  />
+							<a href="https://azure.microsoft.com/en-us/blog/hybrid-infrastructure-automation-with-azure-resource-manager-templates/">https://azure.microsoft.com/en-us/blog/hybrid-infrastructure-automation-with-azure-resource-manager-templates/</a> <br  /></p>
+						</li>
+						<li>							
+						<h5 id="azure-powershell-1-0">Azure Powershell 1.0</h5>
+							<p>Many of you are likely using some the preview versions of the azure powershell module, including some of the older ones with the odd cursor 
+							behavior that we all so love.  Looks like a lot of our concerns have been listened to in the 1.0 release which is available now and has support 
+							for new Azure features such as Resource Manager and Data Lake.<br />
+							<a href="https://azure.microsoft.com/en-us/blog/azps-1-0/">https://azure.microsoft.com/en-us/blog/azps-1-0/</a> <br /></p>
+						</li>
+						<li>						
+						<h5 id="azure-preview-portal-november-2015-update">Azure Preview Portal - November 2015 Update</h5>
+							<p>The new azure portal continues to improve, bringing improvements to workflow and a new darker theme, check out full details at the 
+							blog post below.<br />
+							<a href="https://azure.microsoft.com/en-us/blog/azure-preview-portal-november-2015-update/">https://azure.microsoft.com/en-us/blog/azure-preview-portal-november-2015-update/</a> <br /></p>
+						</li>
+					</ul>							
+				<h3 id="devops">DevOps</h3>
+					<ul>
+						<li>
+						<h5 id="visual-studio-code-goes-open-source">Visual Studio Code goes Open Source</h5>
+							<p>Along with a bunch of other announcements from the VS Code team, VS Code is now open source, and available for Linux, Windows and OSX.  Check out full details of the latest 0.10.1 release on the VS Code updates page below. <br  />
+							<a href="https://code.visualstudio.com/Updates">https://code.visualstudio.com/Updates</a> <br  /></p>
+						</li>
+						<li>
+						<h5 id="visual-studio-code-gets-a-powershell-extension">Visual Studio Code gets a Powershell extension</h5>
+							<p>This is great for powershell geeks like me, while I enjoy the ISE it&#39;s nice to get markup support in Code, and there are 
+							plenty of advanced features tied in to the extension including variable watching and script analysis, check out details 
+							and instructiosn for instlalation below. <br  />
+							<a href="http://blogs.msdn.com/b/powershell/archive/2015/11/17/announcing-windows-powershell-for-visual-studio-code-and-more.aspx">http://blogs.msdn.com/b/powershell/archive/2015/11/17/announcing-windows-powershell-for-visual-studio-code-and-more.aspx</a> <br  /></p>
+						</li>
+					</ul>
+					<br />
+</div>
+</div>
+</body>
+</html>
