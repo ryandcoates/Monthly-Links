@@ -4,7 +4,7 @@ We plan on bringing you a collection of useful Microsoft articles from across th
 on the latest developments and changes to your favorite microsoft enterprise products
 
 
-## Messaging ##
+### Messaging ###
 ##### Outlook 2016 considerations #####
 The guys over at the EHLO blog put out a nice article around some of the gotchas in deploying Outlook 2016 in your environment
 including the autodiscover requirements and the feature/version match with each Exchange server version, a good read for 
@@ -12,7 +12,7 @@ anyone managing Exchange or Office deployments. <br />
 <http://blogs.technet.com/b/exchange/archive/2015/11/19/outlook-2016-what-exchange-admins-need-to-know.aspx> <br  />
 
 
-## Modern Datacenter ##
+### Modern Datacenter ###
 ##### Hyper-V Documentation for all #####
 Microsoft are using github to host numerous documentation projects going forward, and the docs for 
 Virtualization and containers has started to go online, with the ability for the community to edit and add to 
@@ -33,7 +33,7 @@ as well as some simple management elements <br  />
 <https://azure.microsoft.com/en-us/blog/an-early-look-containers-windows-server-2016-hyper-v-and-azure-with-mark-russinovich/> <br  />
 
 
-## Azure ##
+### Azure ###
 ##### Azure Backup support for Load Balancing and CloudLink encrypted IaaS VMs #####
 Azure backup continues to improve and now has support for load balanced VMs, VMs with multiple NICs and encrypted VMs encrypted 
 with CloudLink SecureVM, This is great news for admins dealing with more complex IaaS deployments who wish to take advantage 
@@ -58,7 +58,7 @@ blog post below.<br />
 <https://azure.microsoft.com/en-us/blog/azure-preview-portal-november-2015-update/> <br />
 
 
-## DevOps ##
+### DevOps ###
 ##### Visual Studio Code goes Open Source #####
 Along with a bunch of other announcements from the VS Code team, VS Code is now open source, and available for Linux, Windows and OSX.  
 Check out full details of the latest 0.10.1 release on the VS Code updates page below. <br  />
